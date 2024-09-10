@@ -52,7 +52,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - GitHub - [Hado Dev](https://github.com/hadodev)
-- Frontend Mentor - [@hadodev](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@hadodev](https://www.frontendmentor.io/profile/hadodev)
 
 ## Acknowledgments
 
