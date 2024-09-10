@@ -16,18 +16,21 @@
 }
 
 body {
-    background-color: var(--clr-slate-300);
     display: grid;
-    place-content: center;
+
     font-family: Outfit, sans-serif;
+
+    background-color: var(--clr-slate-300);
+    place-content: center;
 }
 
 .card {
     width: 320px;
-    background-color: var(--clr-white);
-    border-radius: 1.25rem;
     padding: 1rem;
     padding-bottom: 2.5rem;
+
+    background-color: var(--clr-white);
+    border-radius: 1.25rem;
 
     img {
         border-radius: 0.625rem;
@@ -40,26 +43,27 @@ body {
     }
 
     h1 {
+        color: var(--clr-slate-900);
         font-weight: var(--fw-700);
         font-size: 1.4rem;
         text-wrap: unset;
-        color: var(--clr-slate-900);
         margin-block-start: 1.5rem;
         margin-block-start: 1rem;
     }
 
     p {
         color: var(--clr-slate-500);
-        font-size: var(--fs-p);
         font-weight: var(--fw-400);
+        font-size: var(--fs-p);
     }
 }
 
 .attribution {
     margin-top: 1rem;
+
+    color: var(--clr-slate-900);
     font-size: 11px;
     text-align: center;
-    color: var(--clr-slate-900);
 
 
     a {
@@ -70,6 +74,7 @@ body {
 .contact {
     display: flex;
     place-content: center;
+
     gap: .5rem;
     padding-block: .5rem;
 
