@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+@import url(_reset.css);
+
+:root {
+    /* Colors */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-slate-300: hsl(212, 45%, 89%);
+    --clr-slate-500: hsl(216, 15%, 48%);
+    --clr-slate-900: hsl(218, 44%, 22%);
+
+    /* Typography */
+    --fs-p: 15px;
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+body {
+    background-color: var(--clr-slate-300);
+    display: grid;
+    place-content: center;
+    font-family: Outfit, sans-serif;
+}
+
+.card {
+    width: 320px;
+    background-color: var(--clr-white);
+    border-radius: 1.25rem;
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+
+    img {
+        border-radius: 0.625rem;
+    }
+
+    h1,
+    p {
+        text-align: center;
+        padding-inline: 1rem;
+    }
+
+    h1 {
+        font-weight: var(--fw-700);
+        font-size: 1.4rem;
+        text-wrap: unset;
+        color: var(--clr-slate-900);
+        margin-block-start: 1.5rem;
+        margin-block-start: 1rem;
+    }
+
+    p {
+        color: var(--clr-slate-500);
+        font-size: var(--fs-p);
+        font-weight: var(--fw-400);
+    }
+}
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+    color: var(--clr-slate-900);
+
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+.contact {
+    display: flex;
+    place-content: center;
+    gap: .5rem;
+    padding-block: .5rem;
+
+    img {
+        width: 32px;
+    }
+}
